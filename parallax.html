@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!--Font Awesome-->
+      <script src="https://kit.fontawesome.com/6a79530112.js"
+      crossorigin="anonymous"></script>
+      <!--Material icons-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
+
+    <title></title>
+</head>
+<body>
+    <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="/Images/spongebob.jfif">
+          </div>
+          <a href="#user"><img class="circle" src="/Images/Sandy_Cheeks.svg.png"></a>
+          <a href="#name"><span class="white-text name">Rizalyn</span></a>
+          <a href="https://rizalynvierneza.com/"><span class="white-text email">www.rizalynvierneza.com</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">cloud</i>Spongebob's cast</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="Subheader">Menu</a></li>
+        <li><a class="waves-effect" href="#!">Book an Appointment</a></li>
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="/Images/Background.jfif" alt="">
+        </div>
+    </div>
+    <div class="section pink">
+        <div class="row container">
+            <h2 class="header black-text">Spongebob cast</h2>
+            <a class="btn yellow waves-effect waves-light" onclick="M.toast({
+                html: 'Creative Web Design',
+            inDuration: 1000,
+            completeCallback: function() {
+                alert('Your toast was dismissed');
+            },
+            classes: 'rounded'
+
+        })">Toast</a>"
+        <a class="btn tooltipped blue" data-position="bottom" data-tooltip="I am a tooltip">Contact us</a>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam voluptas officiis, quisquam sit corrupti quod quibusdam, magni ducimus, iure debitis. Recusandae inventore eaque aut laudantium tenetur eos perspiciatis asperiores labore culpa possimus quibusdam modi eveniet, beatae provident nulla totam soluta quam, repellendus neque doloribus natus quisquam? Aliquam officia officiis soluta tempore quidem odio rem neque illo doloribus minus quis alias ex qui, nobis assumenda distinctio porro sit, commodi modi, id maxime repellat suscipit ipsam deserunt? In officia illum velit reprehenderit similique, temporibus quas tenetur consequuntur dolorum cum qui perferendis esse quidem soluta earum expedita neque? In itaque recusandae quam fugit veritatis numquam quas nobis magnam laborum autem officia, debitis doloremque praesentium a beatae explicabo! Id suscipit, error repellendus harum esse alias deleniti quidem quo doloribus labore distinctio quibusdam amet eaque magni impedit nihil mollitia. Quos obcaecati sed quaerat tenetur quam accusantium amet et! Animi deleniti, veniam dignissimos numquam repellendus, repellat debitis velit recusandae neque dolores provident ullam inventore ipsum, distinctio corrupti vitae a pariatur vel qui maiores ea. Hic corrupti quasi consequatur debitis voluptate provident, repellendus at assumenda sint quaerat sit architecto natus non rem placeat nobis a delectus veritatis eius in numquam vero voluptatibus. Repellendus exercitationem quis porro?</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <img src="/Images/Patrick_Star.webp" alt="">
+    </div>
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('.parallax').parallax({
+                responsiveThreshold: 0
+            });
+        });
+    </script>
+    
+    <script>
+    
+    $(document).ready(function(){
+     $('.sidenav').sidenav();
+  });
+        
+
+    </script>
+
+        
+</body>
+</html>

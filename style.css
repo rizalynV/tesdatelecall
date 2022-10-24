@@ -1,0 +1,10 @@
+.box {
+    background: tomato;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.background {
+    margin-bottom: 20px;
+}

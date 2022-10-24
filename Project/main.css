@@ -1,0 +1,11 @@
+.toast {
+    background-color: blue;
+
+}
+
+
+.loader {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+}
