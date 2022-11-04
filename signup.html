@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Quazzu Sign Up</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header class="main-header-signup">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="quazzu.html" class="brand-logo black-text">Quazzu</a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="solutions.html">Solutions</a>
+            </li>
+            <li>
+              <a href="signup.html">Sign up</a>
+            </li>
+            <li>
+              <a href="#login-modal" class="btn cyan modal-trigger">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Showcase-->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h5>Welcome To Quazzu</h5>
+          <h1>Create An Account</h1>
+          <a href="solutions.html" class="btn btn large white purple-text">Learn More</a>
+          <a href="solutions.html" class="btn btn large purple white-text">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Sidenav Structure-->
+  <ul id="slide-out" class="sidenav">
+    <h4 class="purple-text text-darken-4 center">Quazzu</h4>
+    <div class="divider"></div>
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="solutions.html">Solutions</a>
+    </li>
+    <li class="active">
+      <a href="signup.html">Sign Up</a>
+    </li>
+    <li>
+      <a href="#login-modal" class="btn cyan modal-trigger">Log in</a>
+    </li>
+  </ul>
+
+  <!--Section: Sign Up-->
+
+  <section class="section section-signup">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h4>Get a free account</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, iste?</p>
+          <h4>Download Available at ios and windows</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, iste?</p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-4 grey-text text-lighten-4 z-depth-5">
+            <form action="">
+              <div class="input-field">
+                <input type="text" id="first_name">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="middle_name">
+                <label for="middle_name">Middle Name</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="last_name">
+                <label for="last_name">last Name</label>
+              </div>
+              <div class="input-field">
+                <select name="" id="role">
+                  <option value="" disabled selected>Select Role</option>
+                  <option value="Professional">Professional Developers</option>
+                  <option value="hobbyist">Hobbyist</option>
+                  <option value="students">Student</option>
+                </select>
+                <label for="role">Role</label>
+              </div>
+              <input type="submit" value="Signup" class="btn btn-large purple btn-extend">
+            </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="page-footer deep-purple lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, laborum.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright deep-purple darken-2">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+      
+
+
+
+  <!--Login modal structure-->
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login to access your account dashboard</p>
+      <form action="">
+        <div class="input-field">
+          <input type="text" id="email">
+          <label for="email">email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="modal-action modal-close btn blue">
+        <i class="material-icons left">clear</i>Exit
+      </a>
+    </div>
+  </div>
+
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      //Sidenav init
+      $('.sidenav').sidenav({
+        edge: 'right'
+      });
+      //Modal Init
+      $('.modal').modal();
+      //Carousel Init
+      $('.carousel').carousel();
+      //Select Init
+      $('select').formSelect();
+    });
+  </script>
+</body>
+
+</html>
